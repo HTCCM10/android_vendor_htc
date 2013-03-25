@@ -104,6 +104,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shootervm/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/shootervm/proprietary/camera.default.so:/system/lib/hw/camera.default.so \
     vendor/htc/shootervm/proprietary/sensors.shooter.so:/system/lib/hw/sensors.shooter.so \
+    vendor/htc/shootervm/proprietary/gps.shooter.so:/system/lib/hw/gps.shooter.so \
+    vendor/htc/shootervm/proprietary/gps.goldfish.so:/system/lib/hw/gps.goldfish.so \
     vendor/htc/shootervm/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/shootervm/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/shootervm/proprietary/sound8x60:/system/bin/sound8x60 \
