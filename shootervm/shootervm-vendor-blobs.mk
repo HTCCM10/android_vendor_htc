@@ -47,6 +47,9 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for shootervm
 PRODUCT_COPY_FILES += \
+    vendor/htc/shootervm/proprietary/keypress:/system/bin/keypress \
+    vendor/htc/shootervm/proprietary/touchscreen:/system/bin/touchscreen \
+    vendor/htc/shootervm/proprietary/touchevent:/system/bin/touchevent \
     vendor/htc/shootervm/proprietary/charging:/system/bin/charging \
     vendor/htc/shootervm/proprietary/htcbatt:/system/bin/htcbatt \
     vendor/htc/shootervm/proprietary/load-modem.sh:/system/bin/load-modem.sh \
