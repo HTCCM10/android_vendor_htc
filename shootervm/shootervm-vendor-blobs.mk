@@ -117,14 +117,17 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for DRM
 PRODUCT_COPY_FILES +=  \
+    vendor/htc/shootervm/proprietary/drmserver:/system/bin/drmserver \
     vendor/htc/shootervm/proprietary/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/htc/shootervm/proprietary/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/htc/shootervm/proprietary/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/htc/shootervm/proprietary/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/htc/shootervm/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/htc/shootervm/proprietary/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/htc/shootervm/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/htc/shootervm/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/htc/shootervm/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
+    vendor/htc/shootervm/proprietary/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/htc/shootervm/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/htc/shootervm/proprietary/liboma-drm1-fs.so:system/vendor/lib/liboma-drm1-fs.so \
+    vendor/htc/shootervm/proprietary/libhtcomaplugin.so:system/vendor/lib/drm/libhtcomaplugin.so 
 
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
