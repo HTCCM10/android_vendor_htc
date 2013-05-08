@@ -92,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shootervm/proprietary/libmmjps.so:/system/lib/libmmjps.so \
     vendor/htc/shootervm/proprietary/libmmjpeg2.so:/system/lib/libmmjpeg2.so \
     vendor/htc/shootervm/proprietary/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
+    vendor/htc/shootervm/proprietary/libmmstereo.so:/system/lib/libmmstereo.so \
     vendor/htc/shootervm/proprietary/libmpl.so:/system/lib/libmpl.so \
     vendor/htc/shootervm/proprietary/libmllite.so:/system/lib/libmllite.so \
     vendor/htc/shootervm/proprietary/libmlplatform.so:/system/lib/libmlplatform.so \
