@@ -126,7 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shootervm/proprietary/fbtool:/system/bin/fbtool \
     vendor/htc/shootervm/proprietary/charging:/system/bin/charging \
     vendor/htc/shootervm/proprietary/htcbatt:/system/bin/htcbatt \
-    vendor/htc/shootervm/proprietary/mpdecision:/system/bin/mpdecision \
     vendor/htc/shootervm/proprietary/thermald:system/bin/thermald \
     vendor/htc/shootervm/proprietary/libmpl.so:/system/lib/libmpl.so \
     vendor/htc/shootervm/proprietary/libmllite.so:/system/lib/libmllite.so \
@@ -139,6 +138,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shootervm/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/shootervm/proprietary/3D_calibration:/system/bin/3D_calibration \
     vendor/htc/shootervm/proprietary/3D_calibration_main:/system/bin/3D_calibration_main
+
+#   vendor/htc/shootervm/proprietary/mpdecision:/system/bin/mpdecision \
 
 # All the blobs necessary for DRM
 PRODUCT_COPY_FILES +=  \
