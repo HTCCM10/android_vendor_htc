@@ -108,10 +108,55 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shootervm/proprietary/libcameraSP.so:/system/lib/libcameraSP.so \
     vendor/htc/shootervm/proprietary/libcameraface.so:/system/lib/libcameraface.so \
     vendor/htc/shootervm/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/shootervm/proprietary/camera.default.so:/system/lib/hw/camera.default.so 
+    vendor/htc/shootervm/proprietary/camera.default.so:/system/lib/hw/camera.default.so \
+    vendor/htc/shootervm/proprietary/libchromatix_imx074_default_video.so:/system/lib/libchromatix_imx074_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_imx074_default_video.so:/system/lib/libchromatix_imx074_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_imx074_preview.so:/system/lib/libchromatix_imx074_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_imx105_default_video.so:/system/lib/libchromatix_imx105_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_imx105_preview.so:/system/lib/libchromatix_imx105_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_mt9e013_ar.so:/system/lib/libchromatix_mt9e013_ar.so \
+    vendor/htc/shootervm/proprietary/libchromatix_mt9e013_default_video.so:/system/lib/libchromatix_mt9e013_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_mt9e013_preview.so:/system/lib/libchromatix_mt9e013_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_mt9p012_ar.so:/system/lib/libchromatix_mt9p012_ar.so \
+    vendor/htc/shootervm/proprietary/libchromatix_mt9p012_default_video.so:/system/lib/libchromatix_mt9p012_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_mt9p012_km_default_video.so:/system/lib/libchromatix_mt9p012_km_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_mt9p012_km_preview.so:/system/lib/libchromatix_mt9p012_km_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_mt9p012_preview.so:/system/lib/libchromatix_mt9p012_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_mt9t013_default_video.so:/system/lib/libchromatix_mt9t013_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_mt9t013_preview.so:/system/lib/libchromatix_mt9t013_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_ov8810_default_video.so:/system/lib/libchromatix_ov8810_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_ov8810_preview.so:/system/lib/libchromatix_ov8810_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_ov9726_preview.so:/system/lib/libchromatix_ov9726_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_ov9726_video.so:/system/lib/libchromatix_ov9726_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_qs_s5k4e1_preview.so:/system/lib/libchromatix_qs_s5k4e1_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_qs_s5k4e1_video.so:/system/lib/libchromatix_qs_s5k4e1_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_s5k3e2fx_default_video.so:/system/lib/libchromatix_s5k3e2fx_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_s5k3e2fx_preview.so:/system/lib/libchromatix_s5k3e2fx_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_s5k3h1gx_default_video.so:/system/lib/libchromatix_s5k3h1gx_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_s5k3h1gx_preview.so:/system/lib/libchromatix_s5k3h1gx_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_s5k3h2yx_default_video.so:/system/lib/libchromatix_s5k3h2yx_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_s5k3h2yx_preview.so:/system/lib/libchromatix_s5k3h2yx_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_s5k4e1gx_default_video.so:/system/lib/libchromatix_s5k4e1gx_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_s5k4e1gx_preview.so:/system/lib/libchromatix_s5k4e1gx_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_sn12m0pz_default_video.so:/system/lib/libchromatix_sn12m0pz_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_sn12m0pz_preview.so:/system/lib/libchromatix_sn12m0pz_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_vb6801_default_video.so:/system/lib/libchromatix_vb6801_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_vb6801_preview.so:/system/lib/libchromatix_vb6801_preview.so \
+    vendor/htc/shootervm/proprietary/libchromatix_vx6953_default_video.so:/system/lib/libchromatix_vx6953_default_video.so \
+    vendor/htc/shootervm/proprietary/libchromatix_vx6953_preview.so:/system/lib/libchromatix_vx6953_preview.so 
 
 # MM
 PRODUCT_COPY_FILES += \
+    vendor/htc/shootervm/proprietary/mmcamera_test:/system/bin/mmcamera_test \
+    vendor/htc/shootervm/proprietary/mmcamera_test_main:/system/bin/mmcamera_test_main \
+    vendor/htc/shootervm/proprietary/mm-jps-enc-test:/system/bin/mm-jps-enc-test \
+    vendor/htc/shootervm/proprietary/mm-mpo-enc-test:/system/bin/mm-mpo-enc-test \
+    vendor/htc/shootervm/proprietary/mm-qcamera-main-testsuite-client:/system/bin/mm-qcamera-main-testsuite-client \
+    vendor/htc/shootervm/proprietary/mm-qcamera-main-testsuite-client-awb:/system/bin/mm-qcamera-main-testsuite-client-awb \
+    vendor/htc/shootervm/proprietary/mm-qcamera-testsuite-client:/system/bin/mm-qcamera-testsuite-client \
+    vendor/htc/shootervm/proprietary/mm-qcamera-testsuite-client-awb:/system/bin/mm-qcamera-testsuite-client-awb \
+    vendor/htc/shootervm/proprietary/mm-venc-omx-test720p:/system/bin/mm-venc-omx-test720p \
+    vendor/htc/shootervm/proprietary/mm-video-encdrv-test:/system/bin/mm-video-encdrv-test \
     vendor/htc/shootervm/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/shootervm/proprietary/libmmmpo.so:/system/lib/libmmmpo.so \
     vendor/htc/shootervm/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
