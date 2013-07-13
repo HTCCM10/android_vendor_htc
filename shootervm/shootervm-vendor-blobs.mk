@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
+    vendor/htc/shootervm/proprietary/libaacdecoder.so:/system/lib/libaacdecoder.so \
     vendor/htc/shootervm/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/shootervm/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/shootervm/proprietary/libaudcal.so:/system/lib/libaudcal.so \
