@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
 
 # GPS 
 PRODUCT_COPY_FILES += \
+    vendor/htc/shootervm/proprietary/libloc_api-rpc.so:/system/lib/hw/libloc_api-rpc.so \
     vendor/htc/shootervm/proprietary/gps.shooter.so:/system/lib/hw/gps.shooter.so \
     vendor/htc/shootervm/proprietary/gps.goldfish.so:/system/lib/hw/gps.goldfish.so 
 
@@ -84,6 +85,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shootervm/proprietary/libaudcal.so:/system/lib/libaudcal.so \
     vendor/htc/shootervm/proprietary/libacdbmapper.so:system/lib/libacdbmapper.so \
     vendor/htc/shootervm/proprietary/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/htc/shootervm/proprietary/snd:/system/bin/snd \
+    vendor/htc/shootervm/proprietary/snd3254:/system/bin/snd3254 \
     vendor/htc/shootervm/proprietary/sound8x60:/system/bin/sound8x60 
 
 # GPU
